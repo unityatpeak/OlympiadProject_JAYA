@@ -1,0 +1,15 @@
+create table participant_details(registration_number varchar2(20),
+name  varchar2(20),date_of_birth  varchar2(20),
+phone_number  varchar2(20),institution  varchar2(20),
+fields  varchar2(20));
+
+
+
+
+
+
+create sequence registrationnum_seq start with 100;
+
+
+
+create table olympiad_exams (fields varchar2(20),fee number(5));
